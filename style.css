@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#question-container {
+    background-color: #fff; /* Container background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+}
+
+.question-box {
+    background-color: #6393c2; /* Question box background color */
+    padding: 20px;
+    font-size: 18px;;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.option {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.option:hover {
+    background-color: #45a049; /* Darker color on hover */
+}
+
+#score {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#restart-btn {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#restart-btn:hover {
+    background-color: #45a049; /* Darker color on hover */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
